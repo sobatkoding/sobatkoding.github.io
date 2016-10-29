@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'Molle';
+  src: url('../fonts/molle.woff2') format('woff2'),
+       url('../fonts/molle.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Droid Serif';
+  src: url('../fonts/droidserif.woff2') format('woff2'),
+       url('../fonts/droidserif.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satisfy';
+  src: url('../fonts/satisfy.woff2') format('woff2'),
+       url('../fonts/satisfy.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.content {
+  clear: both;
+  margin-top: 30px;
+}
+
+.archives-wrap {
+  /* display: block; */
+  clear: both;
+  margin-top: 40px;
+}
+
+article.post {
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: solid 1px #eaeaea;
+}
+
+article.post:last-child {
+  border: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.5;
+  margin: 25px 0px;
+}
+
+.text-center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1.site-title {
+  font-family: 'Molle', cursive;
+  margin-bottom: 0;
+}
+
+h3.site-description {
+  font-family: 'Satisfy', cursive;
+  font-size: 32px;
+}
+
+img.logo {
+  width: 120px;
+  margin-top: 10px;
+}
+
+.post-title {
+  font-family: 'Droid Serif', serif;
+}
+/* IMPORTED FROM TAUFIK (cahsowan.github.io) */
+.pager {
+  margin: 20px 0 0;
+}
+.pager .page-number { display: none;}
+.pager > a,
+.pager > span,
+.article-more-link a {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 15px 25px;
+  background-color: white;
+  border-radius: 0;
+  border: 1px solid #ddd;
+}
+.pager > a:hover,
+.pager > a:focus,
+.article-more-link a:hover,
+.article-more-link a:focus {
+  color: white;
+  background-color: #1EAEDB;
+  // background-color: #0085a1;
+  border: 1px solid #0085a1;
+  text-decoration: none;
+}
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
+  color: #808080;
+  background-color: #404040;
+  cursor: not-allowed;
+}
+.pager > a.next,
+.pager > span.next {
+  float: right;
+}
+.pager > a.prev,
+.pager > span.prev {
+  float: left;
+}
+.article-more-link a {
+  font-size: 13px;
+  padding: 10px 15px;
+}
+
+.post-meta {
+  margin-bottom: 25px;
+}
+.pull-left, .tags-list {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.tags-list-item, .post-date, .footer-site-name {
+  display: inline;
+  font-family: 'Droid Serif';
+  font-weight: bold;
+}
+
+.tags-list a:before {
+  content: '#';
+}
+
+.tags-list li:not(:last-of-type):after {
+  content: ', ';
+}
+/* END OF IMPORTED FROM TAUFIK (cahsowan.github.io) */
+
+.navbar {
+  /* display: none; */ }
+
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  /* Navbar */
+  .navbar + .docs-section {
+    border-top-width: 0; }
+  .navbar,
+  .navbar-spacer {
+    display: block;
+    width: 100%;
+    height: 6.5rem;
+    background: #fff;
+    z-index: 99;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee; }
+  .navbar-spacer {
+    display: none; }
+  .navbar > .container {
+    width: 100%; }
+  .navbar-list {
+    list-style: none;
+    margin-bottom: 0; }
+  .navbar-item {
+    position: relative;
+    float: left;
+    margin-bottom: 0; }
+  .navbar-link {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    margin-right: 35px;
+    text-decoration: none;
+    line-height: 6.5rem;
+    color: #222; }
+  .navbar-link.active {
+    color: #33C3F0; }
+  .has-docked-nav .navbar {
+    position: fixed;
+    top: 0;
+    left: 0; }
+  .has-docked-nav .navbar-spacer {
+    display: block; }
+  /* Re-overiding the width 100% declaration to match size of % based container */
+  .has-docked-nav .navbar > .container {
+    width: 80%; }
+}
+
+/* .searchbox {
+  margin: 15px 0;
+  padding: 0;
+  float: right;
+} */
