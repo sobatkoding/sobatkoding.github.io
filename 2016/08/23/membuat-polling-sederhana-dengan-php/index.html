@@ -56,12 +56,39 @@
 
   <p>Sering kita jumpai jajak pendapat (polling) di website, entah itu untuk membandingkan produk smartphone, sepeda motor atau yang lain.</p>
 <p>Nah… karena penasaran ingin coba bikin sendiri (polling sederhana) dengan PHP, akhirnya langsung aja buka text editor, mulai coding. Program yang dibuat sangatlah sederhana, hanya menyimpan data dalam file TXT berisi json dari array yang diencode, dan tampilan form serta hasilnya. Pertanyaan dan pilihan polling juga disimpan dalam file json.</p>
-<p>Jadi intinya pelajaran ini menitikberatkan pada manipulasi array dan akses fileystem dengan file_get_content serta file_put_contents, silahkan disimak langkah lengkapnya di video panduan ini.</p>
+<p>Jadi intinya pelajaran ini menitikberatkan pada manipulasi array dan akses fileystem dengan <strong>file_get_contents</strong> serta <strong>file_put_contents</strong>, silahkan disimak langkah lengkapnya di video panduan ini.</p>
 <iframe width="854" height="480" src="https://www.youtube.com/embed/v-ZydOgwicU" frameborder="0" allowfullscreen></iframe>
+
+<p>Berikut adalah kode akhirnya:</p>
+<script src="https://gist.github.com/cahsowan/cc1c7001f3660d5511c9bb62c95f6df0.js"></script>
 
 <p>Selamat mencoba…</p>
 
 
+  
+    <section id="comments">
+<h2>Comments</h2>
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+/*
+var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//sobatkoding.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
   
 </div></div>
   </div>

@@ -44,6 +44,12 @@ article.post:last-child {
   border: none;
 }
 
+section.archives-wrap article {
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  border-bottom: solid 1px #eaeaea;
+}
+
 .clearfix {
   clear: both;
 }
